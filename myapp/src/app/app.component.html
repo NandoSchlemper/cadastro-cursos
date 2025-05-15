@@ -1,0 +1,51 @@
+<ion-app>
+  <ion-header class="ion-padding">
+    <ion-toolbar>
+      <ion-title>
+        Cadastro de Cursos
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content>
+    <ion-list class="ion-padding">
+
+      <ion-input labelPlacement="floating" placeholder="Ex: ADS" required>
+        <div slot="label">Nome <ion-text color="danger">(Obrigatório)</ion-text></div>
+      </ion-input>
+
+      <ion-input labelPlacement="floating" placeholder="Ex: Computação" required>
+        <div slot="label">Tipo <ion-text color="danger">(Obrigatório)</ion-text></div>
+      </ion-input>
+
+      <ion-input labelPlacement="floating" placeholder="Ex: Iniciante" required>
+        <div slot="label">Dificuldade <ion-text color="danger">(Obrigatório)</ion-text></div>
+      </ion-input>
+
+      <ion-textarea labelPlacement="floating" placeholder="Ex: Autorização" required>
+        <div slot="label">Atos Autorizativos <ion-text color="danger">(Obrigatório)</ion-text></div>
+      </ion-textarea>
+
+      <ion-textarea labelPlacement="floating" placeholder="Descreva a proposta" required>
+        <div slot="label">PPC <ion-text color="danger">(Obrigatório)</ion-text></div>
+      </ion-textarea>
+
+      <ion-input type="number" labelPlacement="floating" placeholder="Ex: 2000" required>
+        <div slot="label">Carga Horária Total <ion-text color="danger">(Obrigatório)</ion-text></div>
+      </ion-input>
+
+      <ion-input labelPlacement="floating" placeholder="Ex: Graduação, Pós-graduação, Técnico" required>
+        <div slot="label">Nível do Curso <ion-text color="danger">(Obrigatório)</ion-text></div>
+      </ion-input>
+
+      <ion-input labelPlacement="floating" placeholder="Ex: Engenharia, Educação, Saúde" required>
+        <div slot="label">Área de Conhecimento <ion-text color="danger">(Obrigatório)</ion-text></div>
+      </ion-input>
+
+      <ion-button expand="block" class="ion-margin-top" type="submit">
+        Cadastrar Curso
+      </ion-button>
+
+    </ion-list>
+  </ion-content>
+</ion-app>
